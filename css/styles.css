@@ -117,17 +117,6 @@ p {
 	transform: translate(-50%, -50%);
 }
 
-
-
-/*.opacity {
-	width: 100%;
-	height: 100%;
-	background-color: #140601;
-	opacity: 0.7;
-	margin: 0;
-	padding: 30px 15px !important;
-}*/
-
 .block {
 	width: 100%;
 	height: auto;
@@ -245,14 +234,6 @@ p {
 	text-decoration: none;
 }
 
-/*.hidden{
-	display: block !important;
-}
-
-.hiddensmall{
-	display: none !important;
-}*/
-
 @media screen and (max-width: 768px) {
 	.borderright{
 		border-right: none !important;
@@ -277,7 +258,6 @@ p {
 		height: auto !important;
 	}
 }
-
 
 .scroll-down {
   opacity: 1;
