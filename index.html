@@ -157,7 +157,12 @@
 		      <img src="./images/slider9.png">
 		    </div>
 		  </section>
-		<div class="row informacja">
+		<div class="row">
+			<div class="col-xs-12 col-md-12">
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2562.6733421271815!2d21.99894526564727!3d50.0362164794203!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473cfbdc2318b04d%3A0xd0f9db634bb9e4a0!2skawiarnia%20Magistrat%20Kawy!5e0!3m2!1spl!2sua!4v1568038595348!5m2!1spl!2sua" width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+			</div>
+		</div>
+		<div class="row informacja" style="padding-bottom: 10px!important">
 			<div class="col-xs-12 col-md-12">
 				<h4 class="whitetext">Informacje</h4>
 				<div class="line white"></div>
@@ -172,7 +177,7 @@
 			<div class="col-xs-6 col-md-2 col-lg-2" id="hours">
 				<p><img src="images/time.png"></p>
 				<h5>Godziny otwarcia</h5>
-				<p>PN-PT 10:00 – 19:00<br>
+				<p>PN-PT 7:30 – 18:00<br>
 				SB-ND 11:00 – 19:00</p>
 			</div>
 			<div class="col-xs-6 col-md-2 col-lg-2" id="contact">
@@ -187,8 +192,8 @@
 			</div>
 			<div class="col-xs-0 col-md-2 col-lg-2">
 			</div>
-			<div class="col-xs-12 col-md-12" style="margin-top:40px; margin-bottom:40px; ">
-				<p><a href="https://www.instagram.com/magistratkawy/"><img src="images/insta.png" style="width:50px !important; margin-right: 40px;"></a><a href="https://www.facebook.com/magistratkawy"><img src="images/fb.png" style="width:50px !important; "></a></p>
+			<div class="col-xs-12 col-md-12" style="margin-top:0px; margin-bottom:0px; ">
+				<p><a href="https://www.instagram.com/magistratkawy/"><img src="images/insta.png" style="width:50px !important; margin-right: 20px;"></a><a href="https://www.facebook.com/magistratkawy"><img src="images/fb.png" style="width:50px !important; "></a></p>
 			</div>
 			<div class="col-xs-12 col-md-12">
 				<div class="line white" style="width: 90% !important;"></div>
@@ -202,7 +207,9 @@
 	<script type="text/javascript">
 	    	$('.center').slick({
 			  // normal options...
-			  infinite: false,
+			  infinite: true,
+			  autoplay: true,
+			  autoplayspeed: 100,
 			  slidesToShow: 7,
 			  slidesToScroll: 1,
 			  // the magic
